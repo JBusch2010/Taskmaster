@@ -3,7 +3,7 @@
 ## Table of Contents
 1. Lab 31: Lambda
 2. Lab 32: Lambda Warmers and Triggers
-3. Lab 33: 
+3. Lab 33: Lambda API Gateway
 
 ---------------------------------------
 
@@ -47,7 +47,7 @@
 - Peter Lee
 ---------------------------------------
 
-### 3. Lambda API Gateway
+### 3. Lab 33: Lambda API Gateway
 
 #### Feature Tasks Completed
 - Create a new (empty) Lambda function for each route in Taskmaster
@@ -65,6 +65,33 @@
 - POST /tasks
 - PUT /tasks/{id}/state
 - PUT /tasks/{id}/assign/{assignee}
+
+### Contributions
+- Fabion Brooks
+- Marisha Hoza
+- Brandon Hurrington
+- Steve Grant
+- Nhu Trinh
+- Padma Ganapathi
+- Jackie
+- Nicholas Paro
+- Peter Lee
+---------------------------------------
+
+### 3. Lab 39: Event Driven Applications
+
+#### Feature Tasks Completed
+- Feature Requirements / User Validation
+- React Application where …
+- Users can create tasks
+- Users can upload images
+- Users can re-assign tasks to other users
+- Users can enter their phone number to subscribe to completed notifications
+- Users can mark tasks as completed
+- When tasks are marked as complete
+    - Dynamo triggers a lambda function
+    - That lambda function sends a message to SNS
+    - SNS Broadcasts that message to all subscribers, sending a text message
 
 ### Contributions
 - Fabion Brooks
