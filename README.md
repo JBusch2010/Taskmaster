@@ -4,6 +4,7 @@
 1. Lab 31: Lambda
 2. Lab 32: Lambda Warmers and Triggers
 3. Lab 33: Lambda API Gateway
+4. Lab 39: Event Driven Applications
 
 ---------------------------------------
 
@@ -78,7 +79,7 @@
 - Peter Lee
 ---------------------------------------
 
-### 3. Lab 39: Event Driven Applications
+### 4. Lab 39: Event Driven Applications
 
 #### Feature Tasks Completed
 - Feature Requirements / User Validation
